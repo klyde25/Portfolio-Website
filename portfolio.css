@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
+@import url('https://www.flaticon.com/free-icon-font/house-chimney_9243863?term=home&related_id=9243863');
+
+
+*{
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+a::before a::after{
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  background-color: #0A0A0A;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 13rem;
+  background-size: 500px;
+}
+
+.navbar{
+  background-color: #0A0A0A;;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 10px 5px black;
+}
+
+
+.nav a{
+  font-size: 20px;
+  color: #F8F5E9;
+  letter-spacing: 0.5px;
+  position: relative;
+  margin-left: 80px;
+  padding: 2px 10px;
+ }
+ 
+a:hover{
+  color: red;
+}
+a:hover::after{
+  width: 100%;
+}
+
+
+.scc{
+  display: block;
+  width: 80%;
+  height: 150px;
+  margin: auto;
+  margin-top: 15px;
+  z-index: -1;
+  opacity: 0.7;
+  margin: 0 auto;
+}
+
+
+.profile{
+  display: block;
+  width: 350px;
+  height: 300px;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 50%;
+ 
+}
+
+.description{
+  color: whitesmoke;
+  text-align: center;
+  word-spacing: 1px;
+  margin-top: 30px;
+}
+
+.highlight{
+  color: maroon;
+  font-weight: 500px;
+  font-size: large;
+}
+
+.nav .active{
+  color: red;
+  border-bottom: #F8F5E9 3px solid;
+}
+
+.aboutme{
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 40px;
+  border: 2px solid maroon;
+  width: 200px;
+  margin: 50px auto;
+  background-color: maroon;
+}
+
